@@ -6,6 +6,9 @@
 # Nach der Auswahl soll das Ergebnis der Rechnung ausgegeben werden,
 # bzw. eine Fehlermeldung, falls eine
 # falsche Auswahl getroffen wurde.
+<?php
+
+
 
 
 # Nach dem Ohmschen Gesetz berechnet sich der Widerstand eines ohmschen Widerstandes mit:

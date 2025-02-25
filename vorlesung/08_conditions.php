@@ -60,3 +60,7 @@ if (true) {
 } else {
     printn("else");
 }
+
+
+
+//todo truthy falsy
