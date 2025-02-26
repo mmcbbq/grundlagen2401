@@ -25,7 +25,7 @@ array_splice($my_array2, 1, 1);
 
 //oder mit unset
 unset($my_array2[1]);
-// um leerstellen im INdex zu vermeiden array_values
+// um leerstellen im Index zu vermeiden array_values
 $my_array2 = array_values($my_array2);
 
 // tauschen
@@ -38,8 +38,9 @@ $my_array2 = ['Tom', 456, 42.24, 'false'];
 $pos = 1;
 $len = 2; //von wo & wie viele Elemente
 array_splice($my_array2, $pos, $len, array_reverse(array_slice($my_array2, $pos, $len)));
+print '---------Tausch------------';
 var_dump($my_array2);
-
+print '-----------------------------';
 // arrays anfuegen
 $my_array2 = array_merge($my_array, $my_array2);
 
@@ -52,9 +53,10 @@ print "--------copy------------";
 var_dump($copy);
 // Copy by ref  mit dem '&'
 
-$original_list = [1, 2, 3];
+$original_list = [1, 'Barack', 3];
 $copy = &$original_list;
 $copy[0] = "1000";
 var_dump($original_list);
 print "--------copy------------";
 var_dump($copy);
+print array_search('Barack',$copy);
