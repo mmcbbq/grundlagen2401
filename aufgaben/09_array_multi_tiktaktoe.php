@@ -36,3 +36,5 @@
 # Zähle alle "o" in der mittleren Liste index 1
 
 #Schreib eine If anweisung die 'Sieg' ausgibt wenn das Zeiche auf pos 1.1 das selbe ist wie auf pos 2.2 und 3.3
+$input = readline("\nHallo:\n");
+echo $input;
