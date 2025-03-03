@@ -3,7 +3,17 @@
 $liste = [27, 29, 7, 76, 56];
 
 
-
+for ($i = 0; $i < count($liste) ; $i++) {
+    for ($j = 0; $j < count($liste)  - $i - 1; $j++) {
+        if ($liste[$j] > $liste[$j +1]){
+            $z = $liste[$j];
+            $liste[$j] = $liste[$j +1];
+            $liste[$j + 1] = $z;
+        }
+    }
+}
+print_r([27, 29, 7, 76, 56]);
+print_r($liste);
 
 $small = [
     [
@@ -526,4 +536,15 @@ $small = [
 //    ]
 //];
 
+for ($k = 0; $k < count($small); $k++) {
+//    var_dump($small[$k]['anzahl']);
+    for ($l = 0; $l < count($small) -$k - 1; $l++) {
+        if ($small[$l]['anzahl'] >$small[$l +1]['anzahl']){
+            $z = $small[$l];
+            $small[$l] = $small[$l +1];
+            $small[$l +1] = $z;
+        }
+    }
+}
 
+print_r($small);

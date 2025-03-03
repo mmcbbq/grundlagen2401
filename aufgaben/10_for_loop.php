@@ -6,7 +6,7 @@
 # ***
 # ****
 # *****
-print str_repeat("*",100);
+//print str_repeat("*",100);
 
 # Schreib eine Schleife die folgendes Muster ausgibt
 # *****
@@ -53,3 +53,14 @@ print str_repeat("*",100);
 # XOXOXOXO
 # OXOXOXOX
 # XOXOXOXO
+
+//for ($i = 0; $i < 8; $i++) {
+//    for ($j = 0; $j < 8; $j++) {
+//        if (($j + $i) % 2 == 0){
+//            print 'O';
+//        } else{
+//            print 'X';
+//        }
+//    }
+//    print "\n";
+//}

@@ -6,12 +6,7 @@
 # ***
 # ****
 # *****
-
-for ($i = 1; $i <= 5; $i++) {
-    print str_repeat('*', $i);
-    print "\n";
-}
-
+print str_repeat("*",100);
 
 # Schreib eine Schleife die folgendes Muster ausgibt
 # *****
@@ -19,10 +14,6 @@ for ($i = 1; $i <= 5; $i++) {
 # ***
 # **
 # *
-for ($j = 5; $j >= 1; $j--) {
-    print str_repeat('*', $j);
-    print "\n";
-}
 
 # Schreib eine Schleife, die folgendes Muster ausgibt
 # 1
@@ -30,13 +21,6 @@ for ($j = 5; $j >= 1; $j--) {
 # 123
 # 1234
 # 12345
-
-for ($zeilen = 1; $zeilen <= 5; $zeilen++) {
-    for ($spalte = 1; $spalte <= $zeilen; $spalte++) {
-        print $spalte;
-    }
-    print "\n";
-}
 
 
 # Schreib eine Schleife, die folgendes Muster ausgibt
@@ -46,12 +30,6 @@ for ($zeilen = 1; $zeilen <= 5; $zeilen++) {
 # 2345
 # 12345
 
-for ($k = 5; $k >= 1; $k--) {
-    for ($l = $k; $l <= 5; $l++) {
-        print $l;
-    }
-    print "\n";
-}
 
 
 # ### fizzbuzz
@@ -66,15 +44,12 @@ for ($k = 5; $k >= 1; $k--) {
 # wenn die Modulo-Operation (%, MOD) den Rest 0 liefert.
 
 
-for ($m = 1; $m <= 100; $m++) {
-    if ($m % 5 == 0 and $m % 7 == 0) {
-        print "fizzbuzz \n";
-    } elseif ($m % 7 == 0) {
-        print "buzz \n";
-    } elseif ($m % 5 ==0) {
-        print "fizz \n";
-    } else {
-        print $m;
-        print "\n";
-    }
-}
+# Schreib eine Schleife, die folgendes Muster ausgibt
+# OXOXOXOX
+# XOXOXOXO
+# OXOXOXOX
+# XOXOXOXO
+# OXOXOXOX
+# XOXOXOXO
+# OXOXOXOX
+# XOXOXOXO
