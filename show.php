@@ -1,11 +1,8 @@
 <?php
 
-
-
-
-
-
-
+$user = file_get_contents('user.json');
+$user = json_decode($user,true);
+var_dump($user);
 
 //function start()
 //{
