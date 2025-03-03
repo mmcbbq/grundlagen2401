@@ -3,6 +3,18 @@
 $liste = [27, 29, 7, 76, 56];
 
 
+for ($i = 0; $i < count($liste) ; $i++) {
+    for ($j = 0; $j < count($liste)  - $i - 1; $j++) {
+        if ($liste[$j] > $liste[$j +1]){
+            $z = $liste[$j];
+            $liste[$j] = $liste[$j +1];
+            $liste[$j + 1] = $z;
+        }
+    }
+}
+print_r([27, 29, 7, 76, 56]);
+print_r($liste);
+
 $user = [
     [
         "name" => "Melanie Reilly",
