@@ -42,3 +42,14 @@ print str_repeat("*",100);
 # Der Modulo-Operator ermittelt den Rest bei Division.
 # Somit ist eine Teilbarkeit einfach dann erreicht,
 # wenn die Modulo-Operation (%, MOD) den Rest 0 liefert.
+
+
+# Schreib eine Schleife, die folgendes Muster ausgibt
+# OXOXOXOX
+# XOXOXOXO
+# OXOXOXOX
+# XOXOXOXO
+# OXOXOXOX
+# XOXOXOXO
+# OXOXOXOX
+# XOXOXOXO

@@ -15,7 +15,7 @@ for ($i = 0; $i < count($liste) ; $i++) {
 print_r([27, 29, 7, 76, 56]);
 print_r($liste);
 
-$user = [
+$small = [
     [
         "name" => "Melanie Reilly",
         "email" => "jacksonlopez@example.com",
@@ -518,3 +518,33 @@ $user = [
     ]
 ];
 
+//$small = [
+//    [
+//        "name" => "Joshua Browning",
+//        "email" => "william87@example.net",
+//        "anzahl" => 74
+//    ],
+//    [
+//        "name" => "Logan Stevens",
+//        "email" => "ryanbradley@example.net",
+//        "anzahl" => 84
+//    ],
+//    [
+//        "name" => "Matthew Barry",
+//        "email" => "annerowe@example.com",
+//        "anzahl" => 80
+//    ]
+//];
+
+for ($k = 0; $k < count($small); $k++) {
+//    var_dump($small[$k]['anzahl']);
+    for ($l = 0; $l < count($small) -$k - 1; $l++) {
+        if ($small[$l]['anzahl'] >$small[$l +1]['anzahl']){
+            $z = $small[$l];
+            $small[$l] = $small[$l +1];
+            $small[$l +1] = $z;
+        }
+    }
+}
+
+print_r($small);
