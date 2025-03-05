@@ -30,6 +30,15 @@
 # a b a
 # b a b
 
+#wenn nichts uebergeben wird soll folgendes ausgegeben werden
+# OXOXOXOX
+# XOXOXOXO
+# OXOXOXOX
+# XOXOXOXO
+# OXOXOXOX
+# XOXOXOXO
+# OXOXOXOX
+# XOXOXOXO
 
 
 
