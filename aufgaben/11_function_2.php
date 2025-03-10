@@ -4,6 +4,9 @@
 #Wenn man nur einen Parameter uebergibt soll dieser mit 2 multipliziert werden
 # wenn man 2 Paramter uebergibt sollen diese miteinander multipliziert werden.
 
+
+
+
 function multiplikation(int $a, int $b = 2): int
 {
     return $a * $b;

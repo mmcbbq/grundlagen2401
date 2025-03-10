@@ -5,7 +5,6 @@ function flaecheRecht($c, $b){
     $a = $c * $b;
 //    print "Flaeche ist $a";
     return $a;
-
 }
 //Schreibe eine Funktion flaecheKreisRadius
 //Sie soll die Flache eines Kreises mit dem Radius berechnen und zurückgeben
