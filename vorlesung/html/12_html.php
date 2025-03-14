@@ -68,17 +68,17 @@ $array_keys = array_keys($small[0]);
 <!DOCTYPE html>
 <html>
 <body>
-<div id='1' class='hallo' style='background-color: #29d9b3; color: #94218e; '>Hallo Welt</div>
+<div id='1' class='hallo' style='background-color: #7b1b1b; color: #94218e;'>Hallo Welt</div>
 
 <table>
     <tr>
-        <?php
-        for ($j = 0; $j <count($small[0]) ; $j++) {
-            echo "<th> {$array_keys[$j]}  </th>";
+    <?php
+    for ($j = 0; $j <count($small[0]) ; $j++) {
+        echo "<th> {$array_keys[$j]}  </th>";
 
-        }
+    }
 
-        ?>
+    ?>
 
     </tr>
 
@@ -88,15 +88,15 @@ $array_keys = array_keys($small[0]);
     for ($i = 0; $i < $count; $i++) {
 
         if ($i % 2 == 0){
-            $back_color = 'magenta';
-            $color = '#ffec4e';
+         $back_color = 'magenta';
+         $color = '#ffec4e';
         } else {
-            $back_color = 'red';
-            $color = "darkblue";
+         $back_color = 'red';
+         $color = "darkblue";
         }
 
 
-        echo "<tr style='background-color:$back_color; color: $color'>";
+        echo "<tr  style='background-color: $back_color; color: $color'>";
         for ($k = 0; $k < count($array_keys); $k++) {
             echo "<td>{$small[$i][$array_keys[$k]]} </td>";
         }
