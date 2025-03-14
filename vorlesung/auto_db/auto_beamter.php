@@ -4,6 +4,8 @@ $lname = $_GET['lname'] ?? '';
 $color = $_GET['color'];
 $aus_array = $_GET['aus'];
 $marke = $_GET['marke'];
+
+
 ?>
 
 
